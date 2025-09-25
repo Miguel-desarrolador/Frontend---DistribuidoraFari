@@ -59,10 +59,10 @@ header .logo-text {
     margin-left: 60px;
 }
 .logo-gorra {
-  width: 100px;
+  width: 200px;
   height: auto;
   position: absolute;
-  left: 10px;
+  left: -5px;
 }
 
 

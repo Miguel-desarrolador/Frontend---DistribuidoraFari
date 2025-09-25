@@ -77,7 +77,6 @@ body {
   border-color: #007bff;
   box-shadow: 0 0 4px rgba(0,123,255,0.3);
 }
-
 /* ==========================
    Grid de productos
 ========================== */
@@ -87,15 +86,16 @@ body {
   gap: 1rem;
   padding: 1rem;
 }
-/* En pantallas chicas (celulares) -> 1 columna */
+
+/* En pantallas chicas (celulares) -> 2 columnas */
 @media (max-width: 600px) {
   .grid {
-    grid-template-columns: 1fr; /* solo 1 columna */
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
     gap: 1rem;
     padding: 1rem;
   }
-  
 }
+
 
 /* Contenedor del logo y texto */
 #logo {

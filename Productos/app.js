@@ -945,7 +945,7 @@ const btnValidarCodigo = document.getElementById("btnValidarCodigo");
 const inputCodigoAcceso = document.getElementById("inputCodigoAcceso");
 const btnAgregarProducto = document.getElementById("btnAbrirModal");
 
-const CODIGO_EMPLEADO = "5030";
+const CODIGO_EMPLEADO = "7825";
 
 // Recuperar estado del localStorage
 let accesoEmpleado = localStorage.getItem("accesoEmpleado") === "true";
